@@ -204,8 +204,8 @@ section{
             }
         }
         h2{
-            padding-top: 1rem;
-            padding-bottom: 1rem;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
             font-size: 2.25rem;
             span{
                 color: #fffe7a;
@@ -213,8 +213,8 @@ section{
         }
         p{
             font-size: 1.25rem;
-            margin: 1.5rem 0;
-            line-height: 2rem;
+            margin: 1rem 0;
+            line-height: 1.75rem;
         }
         .header-links{
             .contact-icons{
@@ -871,9 +871,25 @@ section{
                 margin-left: 1.5rem;
             }
         }
-        .submit-btn{
+        .submit-btn2{
+            border: solid var(--color-secondary);
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 1.25rem;
+            font-weight: 700;
             display: flex;
             justify-content: flex-start;
+            padding: 0.8rem;
+            border-radius: 20px;
+            transition: all .4s ease-in-out;
+            background-color: var(--color-secondary);
+            &:hover{
+                cursor: pointer;
+                transform: translateY(-5px);
+                border: 2px solid #c19e78;
+                background-color: #c19e78;
+                box-shadow: 1px 4px 15px rgba(0,0,0,.32);
+            } 
         }
     }
 }
