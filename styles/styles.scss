@@ -366,7 +366,7 @@ section{
         text-align: center;
         .first-row{
             display: inline-block;
-            padding: 2rem;
+            padding: 3rem;
             .element-html{
                 border: 1px solid var(--color-grey5);
                 border-radius: 5px;
@@ -484,7 +484,7 @@ section{
         }
         .second-row{
             display: inline-block;
-            padding: 2rem;
+            padding: 3rem;
             .element-expressjs{
                 border: 1px solid var(--color-grey5);
                 border-radius: 5px;
@@ -590,6 +590,67 @@ section{
                     transform: translateY(-5px);
                     border: 2px solid #390091;
                     background-color: #390091;
+                    box-shadow: 1px 4px 15px rgba(0,0,0,.32);
+                }
+                display: inline-block;
+                padding: 0.6rem;
+                .element-title{
+                    text-align: center;
+                    padding-top: 0.6rem;
+                }
+            }
+        }
+        .third-row{
+            display: inline-block;
+            padding: 3rem;
+            .element-mysql{
+                border: 1px solid var(--color-grey5);
+                border-radius: 5px;
+                transition: all .4s ease-in-out;
+                box-shadow: 1px 2px 15px rgba(0,0,0,.1);
+                &:hover{
+                    cursor: pointer;
+                    transform: translateY(-5px);
+                    border: 2px solid #00515e;
+                    background-color: #00515e;
+                    box-shadow: 1px 4px 15px rgba(0,0,0,.32);
+                }
+                display: inline-block;
+                padding: 0.6rem;
+                .element-title{
+                    text-align: center;
+                    padding-top: 0.6rem;
+                }
+            }
+            .element-postgresql{
+                border: 1px solid var(--color-grey5);
+                border-radius: 5px;
+                transition: all .4s ease-in-out;
+                box-shadow: 1px 2px 15px rgba(0,0,0,.1);
+                &:hover{
+                    cursor: pointer;
+                    transform: translateY(-5px);
+                    border: 2px solid #264c83;
+                    background-color: #264c83;
+                    box-shadow: 1px 4px 15px rgba(0,0,0,.32);
+                }
+                display: inline-block;
+                padding: 0.6rem;
+                .element-title{
+                    text-align: center;
+                    padding-top: 0.6rem;
+                }
+            }
+            .element-springboot{
+                border: 1px solid var(--color-grey5);
+                border-radius: 5px;
+                transition: all .4s ease-in-out;
+                box-shadow: 1px 2px 15px rgba(0,0,0,.1);
+                &:hover{
+                    cursor: pointer;
+                    transform: translateY(-5px);
+                    border: 2px solid #6db33f;
+                    background-color: #6db33f;
                     box-shadow: 1px 4px 15px rgba(0,0,0,.32);
                 }
                 display: inline-block;
